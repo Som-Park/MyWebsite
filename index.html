@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Somin Park's Portfolio</title>
+
+
+        <style>
+            .title{
+                font-weight: bold;
+                color: #1B5EBE;
+            }
+        </style>
+
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+        <!-- nav -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#myPage">SOMIN</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#works">EXPERIENCE</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- intro -->
+        <div class="container-fluid intro-bg text-center">
+            <h2 style="margin-top: 50px">somin park's portfolio</h2>
+
+            <h4 style="margin-top: 30px">Hello, I am <strong >Somin Park</strong>.
+                <br>
+                    Welcome to my portfolio page!</h4>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="p1.jpg" height="600px" width="550px">
+                          </div>
+
+                          <div class="item">
+                            <img src="p2.jpg" height="600px" width="550px">
+                          </div>
+
+                          <div class="item">
+                            <img src="p3.JPG" height="600px" width="550px">
+                          </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+        </div>
+
+        <!-- about -->
+        <div id="about" class="container-fluid about-bg text-center">
+            <h2>About Me</h2>
+
+            <div class="row">
+                <div class="container">
+                    <div class="col-sm-8 col-sm-offset-2 text-left">
+                        <p>
+                            I'm a data and systems analyst. Most recently I worked as a Data Analysis Engineer at SK Battery America, where I was assigned to BlueOval SK (a Ford and SK On joint venture) and supported the GQMS and MES applications used by the production and quality teams.
+                        </p>
+                        <p>
+                            A lot of my day was spent in Oracle SQL, looking into data issues and system errors, finding where things went wrong, and checking the fix with users and IT. I also tested system changes before they went to production, worked on a Java feature in GQMS, and helped with deployments through Jenkins and JEUS.
+                        </p>
+                        <p>
+                            Before that, I interned at Banner Health on their MedChat rollout and worked as a math grader at ASU for about two and a half years.
+                        </p>
+
+                        <br><div class="title">Education</div>
+                        <p>
+                            W. P. Carey School of Business, Arizona State University, Tempe, AZ<br>
+                            Bachelor of Science, Computer Information Systems (August 2020 to December 2023)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- works -->
+        <div id="works" class="container-fluid works-bg text-center">
+            <h2>Experience</h2>
+            <h4>Where I've worked</h4>
+
+            <div class="container">
+                <div class="row slideanim">
+                    <div class="col-sm-12">
+                        <div class="thumbnail exp-card">
+                            <div class="exp-head">
+                                <strong>Data Analysis Engineer</strong>
+                                <span class="exp-date">April 2024 to February 2026</span>
+                            </div>
+                            <div class="exp-org">SK Battery America, Stanton, TN</div>
+                            <div class="exp-sub">Assigned to BlueOval SK (Ford &amp; SK On Joint Venture), Shared Services</div>
+                            <ul>
+                                <li>Supported GQMS and MES applications used by production and quality teams and helped resolve day-to-day system and data issues.</li>
+                                <li>Used Oracle SQL to query, update, and validate application data while troubleshooting user requests and system issues.</li>
+                                <li>Investigated data discrepancies and system errors, identified the cause of issues, and worked with users and IT teams to verify fixes.</li>
+                                <li>Performed functional and regression testing for system changes and new features before production releases.</li>
+                                <li>Developed an attachment submission and approval feature in GQMS using Java and tested the feature before release.</li>
+                                <li>Supported GQMS deployments using Jenkins and JEUS and used Bitbucket for source code management.</li>
+                                <li>Created a weekly Excel dashboard for management to track incoming issues, completed requests, and team workload.</li>
+                                <li>Supported quarterly user access reviews by using Oracle SQL to identify active accounts and updating access based on requests from the Security team.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span>Oracle SQL</span><span>Java</span><span>C#</span><span>GQMS</span><span>MES</span><span>Jenkins</span><span>JEUS</span><span>Bitbucket</span><span>Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row slideanim">
+                    <div class="col-sm-6">
+                        <div class="thumbnail exp-card">
+                            <div class="exp-head">
+                                <strong>Undergraduate Business Intern</strong>
+                            </div>
+                            <div class="exp-org">Banner Health, Phoenix, AZ</div>
+                            <div class="exp-date">June 2023 to August 2023</div>
+                            <ul>
+                                <li>Observed Medical Assistant (MA) workflows and created process maps using Microsoft Visio.</li>
+                                <li>Recommended improvements to support MedChat implementation and streamline daily workflows.</li>
+                                <li>Analyzed operational data using Microsoft Excel and summarized findings for process improvement.</li>
+                                <li>Managed MedChat user accounts by adding, updating, and removing users, phone numbers, and clinic information.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span>Visio</span><span>Excel</span><span>MedChat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="thumbnail exp-card">
+                            <div class="exp-head">
+                                <strong>Math Grader / Instructional Aide (IA)</strong>
+                            </div>
+                            <div class="exp-org">Arizona State University, Tempe, AZ</div>
+                            <div class="exp-date">August 2021 to December 2023</div>
+                            <ul>
+                                <li>Graded assignments and exams for more than 200 students each semester.</li>
+                                <li>Managed grades and student records using Canvas and Microsoft Excel.</li>
+                                <li>Held weekly office hours to answer questions and provide academic support.</li>
+                                <li>Held weekly Q&amp;A sessions on Zoom for the MAT117S summer class.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span>Canvas</span><span>Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills -->
+        <div id="skills" class="container-fluid skills-bg text-center">
+            <h2>skills</h2>
+            <h4>What I work with</h4>
+
+            <div class="skill-group slideanim">
+                <h3>Languages</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-database fa-4x" style="color: #C74634"></i>
+                        <p>Oracle SQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java fa-4x" style="color: #E76F00"></i>
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python fa-4x" style="color: #3776AB"></i>
+                        <p>Python <span class="skill-note">(basic)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-group slideanim">
+                <h3>Development &amp; Deployment</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fab fa-bitbucket fa-4x" style="color: #2684FF"></i>
+                        <p>Bitbucket</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-jenkins fa-4x" style="color: #D24939"></i>
+                        <p>Jenkins</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-server fa-4x" style="color: #555555"></i>
+                        <p>JEUS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-group slideanim">
+                <h3>Testing &amp; Analysis</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-vial fa-4x" style="color: #1B5EBE"></i>
+                        <p>Functional Testing</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-redo-alt fa-4x" style="color: #1B5EBE"></i>
+                        <p>Regression Testing</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-check-double fa-4x" style="color: #1B5EBE"></i>
+                        <p>Data Validation</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-search fa-4x" style="color: #1B5EBE"></i>
+                        <p>Root Cause Analysis</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-group slideanim">
+                <h3>Systems</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-user-shield fa-4x" style="color: #3D4A5C"></i>
+                        <p>User Access Management</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-tools fa-4x" style="color: #3D4A5C"></i>
+                        <p>System Support</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-sync-alt fa-4x" style="color: #3D4A5C"></i>
+                        <p>Agile Methodology</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-group slideanim">
+                <h3>Tools</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-file-excel fa-4x" style="color: #1D6F42"></i>
+                        <p>Excel</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-table fa-4x" style="color: #A4373A"></i>
+                        <p>Access</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-project-diagram fa-4x" style="color: #3955A3"></i>
+                        <p>Visio</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-file-powerpoint fa-4x" style="color: #C13B1B"></i>
+                        <p>PowerPoint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div id="contact" class="container-fluid contact-bg text-center">
+            <h2>CONTACT</h2>
+            <p>Feel free to reach out.</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:sominpro64850@gmail.com" class="contact-link">sominpro64850@gmail.com</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/Som-Park" target="_blank" class="contact-link">github.com/Som-Park</a></p>
+        </div>
+        <!-- footer -->
+        <footer class="container-fluid footer-bg text-center">
+            <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p>Coded by <a href="https://Som-Park.github.io/Portfolio/" target="_blank" class="footer-link">Somin Park</a></p>
+            <p>You can see this <a href="https://github.com/Som-Park/Portfolio.git" target="_blank" class="footer-link">code</a></p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
